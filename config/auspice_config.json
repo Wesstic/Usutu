@@ -1,0 +1,53 @@
+{
+  "title": "Nextstrain build for Usutu virus",
+  "maintainers": [
+    {"name": "Haoues ALOUT and Maxime Prat, updated on 21st april 2021"}
+  ],
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "author",
+      "title": "Author",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "region"
+  ],
+  "panels": [
+     "tree",
+     "map",
+     "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "lineage",
+    "year",
+    "author"
+    
+  ]
+}
